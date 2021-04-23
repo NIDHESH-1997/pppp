@@ -30,5 +30,5 @@ def todo6(request):
     
      else:
         return render(request,"index.html",context={"form":form})
-    class TemplatesView(TemplateView): template_name = 'login/index.html'     
+class TemplatesView(TemplateView): template_name = 'login/index.html'     
 
