@@ -20,7 +20,7 @@ from todo2 import views
 from todo2.views import TemplatesView
 
 urlpatterns = [
-    path("", TemplatesView.as_view,name="login/index.html")),
+    path("", TemplatesView.as_view,name="login/index.html"),
     path('admin/', admin.site.urls),
     path("accounts/", include("allauth.urls")),
     path("home/",views.home,name='home'),
