@@ -1,7 +1,7 @@
 from django.shortcuts import render,redirect
 from .forms import TODOFORM
 from .models import TODO
-from dkango.views.generic import TemplateView
+from django.views.generic import TemplateView
 
 # Create your views here.
 
