@@ -29,3 +29,5 @@ def todo6(request):
     
      else:
         return render(request,"index.html",context={"form":form})
+    class todoIndexView(ListView): template_name = 'login/index.html'     
+
